@@ -1,0 +1,10 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE data_txt_table(id char(10),name char(10),age char(10),address varchar(15),hobby varchar (15));
+INSERT INTO "data_txt_table" VALUES('    id','name','age','address','hobby');
+INSERT INTO "data_txt_table" VALUES('    1','tom','24','beijing','football');
+INSERT INTO "data_txt_table" VALUES('    2','liu','27','heibei','fotball');
+INSERT INTO "data_txt_table" VALUES('    3','jim','26','shandong','football');
+INSERT INTO "data_txt_table" VALUES('    4','han','28','beijing','football');
+INSERT INTO "data_txt_table" VALUES('    5','meng','25','beijing','tennis');
+COMMIT;
